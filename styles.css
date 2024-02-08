@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-.logo {
+.logo h2 {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -59,4 +59,48 @@ button {
 
 .main-image {
     flex: 0 1 600px;
+}
+
+.information-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+    flex-wrap: wrap;
+}
+
+.info-horse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-horse img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    border: 8px solid #3883F6;
+    border-radius: 10px;
+}
+
+.info-horse p {
+    max-width: 230px;
+    font-size: 18px;
+    color: gray;
 }
