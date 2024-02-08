@@ -19,8 +19,6 @@ body {
 }
 
 .header-links {
-    font-size: 18px;
-    color: #E5E7EB;
     display: flex;
     gap: 18px;
 }
@@ -46,7 +44,7 @@ body {
     color: #F9FAF8;
 }
 
-.main-content {
+.small-text {
     font-size: 18px;
     color: #E5E7EB;
 }
