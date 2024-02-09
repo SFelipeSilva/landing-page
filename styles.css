@@ -104,3 +104,27 @@ button {
     font-size: 18px;
     color: gray;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 1125px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
